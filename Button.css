@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Oswald:wght@300&display=swap");
+:root {
+  --primary: #ffffff;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn:hover {
+  padding: 8px 20px;
+  color: #0004ff;
+  transition: 250ms;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: rgb(192, 192, 192);
+  border: 1px solid var(--primary);
+}
+
+.btn-medium {
+  font-size: 18px;
+}
+
+.btn-large {
+  padding: 12px 20px;
+  font-size: 20px;
+}
